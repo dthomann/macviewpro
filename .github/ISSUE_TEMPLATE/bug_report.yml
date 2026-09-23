@@ -1,0 +1,71 @@
+name: Bug report
+description: Something does not work as expected
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug. Please fill in every field you can — macOS version, Mac model, and file type matter most for image issues.
+  - type: input
+    id: app_version
+    attributes:
+      label: MacViewPro version
+      description: About → MacViewPro (e.g. 1.0.3)
+      placeholder: "1.0.3"
+    validations:
+      required: true
+  - type: input
+    id: macos_version
+    attributes:
+      label: macOS version
+      description: Apple menu → About This Mac (e.g. macOS 15.1 Sequoia)
+      placeholder: "macOS 15.1"
+    validations:
+      required: true
+  - type: input
+    id: mac_model
+    attributes:
+      label: Mac model
+      description: About This Mac → model name, or chip (e.g. MacBook Pro 14" M3 Pro)
+      placeholder: "MacBook Pro (M3 Pro)"
+    validations:
+      required: true
+  - type: input
+    id: file_type
+    attributes:
+      label: File type
+      description: Extension or format involved (JPEG, HEIC, CR3, PDF, …). Leave “n/a” if not file-related.
+      placeholder: "HEIC"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Exact steps from a cold start if possible
+      placeholder: |
+        1. Open …
+        2. Press …
+        3. …
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behaviour
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional context
+      description: Screenshots, sample file description (do not upload private photos unless you are sure), Console logs, etc.
+    validations:
+      required: false

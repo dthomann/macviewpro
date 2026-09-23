@@ -1,0 +1,65 @@
+name: Feature request
+description: Suggest an improvement or new capability
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the problem you want solved and the behaviour you would like. Environment details help when the request depends on hardware or formats.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / use case
+      description: What are you trying to do, and what gets in the way today?
+      placeholder: I often open folders of RAW files and need to…
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: How should MacViewPro behave?
+    validations:
+      required: true
+  - type: input
+    id: macos_version
+    attributes:
+      label: macOS version
+      description: Optional but helpful (Apple menu → About This Mac)
+      placeholder: "macOS 15.1"
+    validations:
+      required: false
+  - type: input
+    id: mac_model
+    attributes:
+      label: Mac model
+      description: Optional (e.g. Mac mini M2, MacBook Air M1)
+      placeholder: "Mac mini (M2)"
+    validations:
+      required: false
+  - type: input
+    id: file_type
+    attributes:
+      label: File type (if relevant)
+      description: Formats this feature would mainly apply to
+      placeholder: "CR3 / NEF"
+    validations:
+      required: false
+  - type: textarea
+    id: steps
+    attributes:
+      label: Example workflow / steps
+      description: Concrete steps showing how you would use the feature
+      placeholder: |
+        1. Open a folder of…
+        2. …
+    validations:
+      required: false
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Workarounds, other apps, or related shortcuts you already use
+    validations:
+      required: false

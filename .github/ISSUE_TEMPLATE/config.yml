@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Website / download
+    url: https://www.macviewpro.com
+    about: Product page, FAQ, and stable DMG download
+  - name: Email support
+    url: mailto:hello@macviewpro.com
+    about: Contact hello@macviewpro.com if GitHub issues are not suitable

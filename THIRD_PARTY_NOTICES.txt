@@ -1,0 +1,36 @@
+MacViewPro — Third-Party Notices
+
+This application includes the following third-party software. Full license
+texts are available in the corresponding project repositories.
+
+---
+
+libwebp (Google / WebM Project)
+Used for WebP encoding.
+Copyright (c) 2010, Google Inc. All rights reserved.
+Licensed under the BSD 3-Clause License.
+https://github.com/webmproject/libwebp
+
+---
+
+libjpeg-turbo / Independent JPEG Group
+Used for lossless JPEG transforms.
+This software is based in part on the work of the Independent JPEG Group.
+
+libjpeg-turbo is covered by the IJG License and the Modified (3-clause) BSD
+License. See libjpeg-turbo LICENSE.md for full text.
+https://github.com/libjpeg-turbo/libjpeg-turbo
+
+---
+
+Sparkle (Sparkle Project)
+Used for optional application updates.
+Licensed under the MIT License.
+https://github.com/sparkle-project/Sparkle
+
+---
+
+Apple system frameworks (Image I/O, Metal, Accelerate, etc.) are used under
+Apple's platform terms.
+
+For questions: hello@macviewpro.com
