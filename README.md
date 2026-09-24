@@ -29,6 +29,19 @@ Website: [macviewpro.com](https://www.macviewpro.com)
 
 ## Install
 
+### Homebrew
+
+```bash
+brew tap dthomann/tap
+brew install --cask macviewpro
+```
+
+One-shot: `brew install --cask dthomann/tap/macviewpro`
+
+Updates: `brew upgrade --cask macviewpro`
+
+### DMG
+
 1. Download the latest **MacViewPro-*.dmg** from [Releases](https://github.com/dthomann/macviewpro/releases), or get the stable installer from [macviewpro.com](https://www.macviewpro.com/downloads/MacViewPro.dmg).
 2. Open the DMG and drag **MacViewPro** to Applications.
 3. Launch from Applications (Gatekeeper / notarized build).
