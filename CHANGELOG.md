@@ -2,6 +2,23 @@
 
 All notable user-facing changes are listed here. Dates are release dates (local).
 
+## [1.1.1] — 2026-09-29
+
+### Added
+
+- Batch conversion / rename starts with every option off (Convert, Resize, Transform, Rename) each time the app is launched, so an option left on from an earlier run can't sneak into a new batch. Your choices are kept while the app stays open, and the output folder is remembered across launches
+
+### Fixed
+
+- Bug when dragging single row to different place in batch list fixed
+- Selecting and dragging multiple rows in the batch list implemented
+- The batch window no longer resizes itself when you change an option
+- The divider between the batch options and the file list now shows as a proper vertical line
+
+### Notes
+
+- The batch window opens centred and sized to fit its content, instead of reopening at its last size and position
+- On first launch after updating, previously saved batch settings (format, options and window size) are cleared; only the output folder is kept
 ## [1.1.0] — 2026-09-27
 
 ### Added
